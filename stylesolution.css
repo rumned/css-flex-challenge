@@ -1,0 +1,28 @@
+/* for some reason this solution by the instructor did not work on my screen */
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.row div {
+  width: 40%;
+}
+
+.row img {
+  width: 100%;
+  height: 100%;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .row div {
+    width: 40%;
+  }
+}

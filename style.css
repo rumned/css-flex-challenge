@@ -1,0 +1,23 @@
+.row img {
+  margin: 20px;
+  width: 30%;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .row div {
+    justify-content: center;
+  }
+  .row img {
+    margin: 20px;
+    width: 30%;
+    justify-content: center;
+  }
+}
